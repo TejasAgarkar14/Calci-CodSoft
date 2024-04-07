@@ -1,0 +1,56 @@
+
+
+body{
+    background-color: black;
+}
+
+
+
+.title{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    color: purple;
+}
+
+
+
+.calculator {
+    width: 200px;
+    margin: 100px auto;
+}
+
+#result {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    color: blanchedalmond;
+    box-shadow: 10px 10px 10px rgba(180, 190, 100, 12);
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+}
+
+button {
+    padding: 10px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 10px 10px 10px rgba(0, 200, 180, 12);
+}
+
+
+#baseText{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+
